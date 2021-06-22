@@ -1,0 +1,165 @@
+#title {
+  background-color: black;
+  color: white;
+  padding: 20px 0 40px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+/* HEADINGS OVERALL */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 200%;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+p {
+  color: grey;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* NAVIGATION BAR */
+.navbar-nav {
+  margin-left: auto;
+}
+
+
+/* HEADINGS */
+.Big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 200%;
+  line-height: 1.5;
+  padding-top: 80px;
+}
+
+.title-img {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 24%;
+  margin-top: 30px;
+  margin-top: 30px;
+}
+
+.top-buttons {
+  text-align: center;
+  padding: 0px 0 34px 0;
+}
+
+@media (max-width: 1028px) {
+  .title-img {
+    position: static;
+    width: 68%;
+    transform: rotate(0);
+  }
+}
+
+/* FEATURES */
+#features {
+  padding: 7% 15% 4% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4%;
+}
+
+.icon {
+  color: black;
+  padding: 0 0 8% 0;
+}
+
+.icon:hover {
+  color: grey;
+}
+
+/* WEEK WISE PLAN */
+#weekplan {
+  padding: 100px;
+  text-align: center;
+}
+
+.week-col {
+  padding: 4% 2%;
+}
+
+.Big-heading-2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 220%;
+  line-height: 1.5;
+}
+
+.week-description{
+  text-align: center;
+}
+
+/* CONTACT INFORMATION & FOOTER BAR*/
+#cta {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 60px;
+}
+
+.foot-note {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+#footer {
+  text-align: center;
+  padding: 30px 15px 8px 5px;
+}
+
+.contact-bar {
+  margin: 40px 0 10px 0;
+}
+
+.mail-icon {
+  margin: 0 10px 10px 10px;
+  color: white;
+}
+
+.mail-icon:hover {
+  color: silver;
+}
+
+.mail-id {
+  color: white;
+}
+
+.mail-id:hover {
+  text-decoration: underline;
+}
+
+.social-icon {
+  color: black;
+}
+
+.social-icon:hover {
+  color: grey;
+}
