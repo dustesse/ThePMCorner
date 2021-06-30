@@ -4,6 +4,7 @@
   padding: 20px 0 40px;
 }
 
+
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
@@ -29,6 +30,14 @@ p {
   color: grey;
 }
 
+.second-heading{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 120%;
+  line-height: 1.5;
+  padding-top: 30px;
+
+}
 .container-fluid {
   padding: 3% 15% 7%;
 }
@@ -150,6 +159,7 @@ p {
 
 .mail-id {
   color: white;
+
 }
 
 .mail-id:hover {
@@ -162,4 +172,14 @@ p {
 
 .social-icon:hover {
   color: grey;
+}
+
+.form2{
+  text-decoration: none;
+
+}
+
+.form2:hover{
+  
+  text-decoration: underline;
 }
